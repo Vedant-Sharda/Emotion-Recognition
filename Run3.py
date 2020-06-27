@@ -18,7 +18,7 @@ set_session(session)
 class Model(object):
     
     EMOTIONS_LIST = ["Angry", "Disgust","Fear", "Happy","Neutral", "Sad","Surprise"]
-    audio=["Tracks/Angry.wav","Tracks/Disgust.wav","Tracks/Fear.wav","Tracks/Happy.wav","Tracks/Neutral.wav","Tracks/Sad.wav","Tracks/Surprise.wav"]
+    audio=["Angry.wav","Disgust.wav","Fear.wav","Happy.wav","Neutral.wav","Sad.wav","Surprise.wav"]
     
     def __init__(self, model_json_file, model_weights_file):
         with open("m.json", "r") as json_file:
